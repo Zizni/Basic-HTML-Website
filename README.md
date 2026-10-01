@@ -1,1 +1,1 @@
-#   Basic Landing page for your website
+#   Basic website
