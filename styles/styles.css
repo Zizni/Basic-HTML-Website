@@ -12,6 +12,24 @@ body {
   font-family: system-ui, -apple-system, sans-serif;
 }
 
+/* Buttons */
+.btn-primary {
+  background-color: rgb(255, 153, 0);
+  color: #1b1a1a !important;
+  padding: 0.6rem 1.25rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+}
+
+
+/* Pill Navbar Styles */
+
 .pill-navbar {
   position: fixed;
   top: 1.5rem;
@@ -63,4 +81,54 @@ body {
 .pill-navbar .pill-contact:hover {
   background-color: #222;
   color: #fff;
+}
+
+
+/* -- Landing Page Styles -- */
+
+.hero {
+  min-height: 100vh;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 2rem 1.5rem;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.badge {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+.hero h1 {
+  font-family: "Space Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  letter-spacing: -0.02em;
+  text-decoration: uppercase;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #475569;
+  margin-bottom: 2rem;
+}
+
+.hero action  {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
